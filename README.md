@@ -1,16 +1,16 @@
 # asdf
 
-A simple Python CLI tool that uses the Anthropic API to generate and execute bash commands.
+A simple bash CLI tool that uses the Anthropic API to generate and execute bash commands.
 
 The intention is to solve for "tip of my tongue" use cases in which you know what you want to happen, but you don't remember the names of the commands or the syntax.
 
-Note: doesn't work with sudo.
-
 ## Installation
 
+Either add asdf.sh to your .bashrc or run
 ```
-pip install git+https://github.com/dhsdjafaiofjoi/asdf.git
+source asdf.sh
 ```
+
 And then add your Anthropic API key to one of these locations (checked in order):
 1. Environment variable: `ANTHROPIC_API_KEY`
 2. File: `.anthropic_api_key` in current directory
